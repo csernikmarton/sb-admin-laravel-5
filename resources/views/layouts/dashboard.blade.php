@@ -272,8 +272,11 @@
                                 <li {{ (Request::is('*typography') ? 'class="active"' : '') }}>
                                     <a href="{{ url ('typography') }}">Typography</a>
                                 </li>
-                                <li {{ (Request::is('*icons') ? 'class="active"' : '') }}>
-                                    <a href="{{ url ('icons') }}"> Icons</a>
+                                <li {{ (Request::is('*fa-icons') ? 'class="active"' : '') }}>
+                                    <a href="{{ url ('fa-icons') }}"> Font Awesome Icons</a>
+                                </li>
+                                <li {{ (Request::is('*mdi-icons') ? 'class="active"' : '') }}>
+                                    <a href="{{ url ('mdi-icons') }}"> Material Design Icons</a>
                                 </li>
                                 <li {{ (Request::is('*grid') ? 'class="active"' : '') }}>
                                     <a href="{{ url ('grid') }}">Grid</a>
