@@ -18,6 +18,7 @@ mix.copy('bower_components/fontawesome/fonts', 'public/assets/fonts');
 mix.styles([
    'bower_components/bootstrap/dist/css/bootstrap.css',
    'bower_components/fontawesome/css/font-awesome.css',
+   'resources/css/materialdesignicons.css',
    'resources/css/sb-admin-2.css',
    'resources/css/timeline.css'
 ], 'public/assets/stylesheets/styles.css')
